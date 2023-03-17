@@ -11,18 +11,17 @@ multiply=num1*num2;
 console.log(multiply);
 
 //2
-const random=(Math.random()+1);
+const random=Math.floor(Math.random())+1;
 console.log(random);
 
 //3
-let nom;
+let mod;
 
 const num3=19;
 const num4=4;
 
-nom=num4
-nom=(num4)%(num3);
-console.log(nom);
+mod=(num4)%(num3);
+console.log(mod);
 
 //4
 const set1 = 5;
